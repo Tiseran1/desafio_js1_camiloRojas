@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.card {
+    color: white;
+    width: 180px;
+    height: 270px;
+    border-radius: 5px;
+    border: solid black;
+    padding: 20px;
+    background-color:#7BA238 ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card .img-card {
+    height: 85px;
+    background-image: url("https://www.amd.com/system/files/2020-05/461767_MSI_Bravo_17_AMD_laptop_1260x709_0.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.card input {
+    width: 80%;
+    border-radius: 5px;
+    padding:  3px 10px;
+}
+
+.card-botonera {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+
+}
+
+.card-botonera button {
+    background-color: #e2a30b;
+    color: white;
+    border-radius:  5px;
+    padding:  4px 8px;
+    cursor: pointer;
+}
+
+.total-seccion {
+    width: 200px;
+    padding: 35px;
+
+}
+.total-seccion .color {
+    display: flex;
+
+}
+.total-seccion .color div {
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+    background-color: black red;
+    border-radius: 50%;
+    border: solid 1px  ;
+
+}
